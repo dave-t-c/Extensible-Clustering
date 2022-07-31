@@ -1,0 +1,1 @@
+Powershell.exe -file src\test\resources\DownloadTestData.ps1

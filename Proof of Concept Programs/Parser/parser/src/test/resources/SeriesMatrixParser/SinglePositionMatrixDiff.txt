@@ -1,0 +1,3 @@
+!series_matrix_table_begin
+"2"	5.05	4.05	3.05
+!series_matrix_table_end

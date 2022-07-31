@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #22297c, #2b815b) linear-gradient(from 25% 25% to 100% 100%, #22297c, #2b815b);" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/" fx:controller="extensibleclustering.application.StandardView">
+   <children>
+      <ComboBox fx:id="parserDropDown" layoutX="269.0" layoutY="27.0" prefHeight="27.0" prefWidth="283.0" promptText="Select Parser" style="-fx-font-family: &quot;Arial&quot;;" />
+      <Button fx:id="selectBtn" layoutX="34.0" layoutY="227.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="99.0" text="Select File" textFill="#22297c">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Button>
+      <Button fx:id="parseBtn" layoutX="257.0" layoutY="227.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="99.0" text="Parse File" textFill="#22297c">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Button>
+      <Button fx:id="reloadBtn" layoutX="143.0" layoutY="227.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="104.0" text="Reload Plugins" textFill="#22297c">
+         <font>
+            <Font name="Arial Italic" size="13.0" />
+         </font></Button>
+      <Label fx:id="fileUsedLabel" layoutX="269.0" layoutY="173.0" prefHeight="24.0" prefWidth="283.0" text="No File Selected" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font></Label>
+      <Label layoutX="58.0" layoutY="25.0" prefHeight="31.0" prefWidth="161.0" text="Parser:" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font></Label>
+      <Label fx:id="outputLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="263.0" prefHeight="73.0" prefWidth="530.0" text="Waiting on output" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font></Label>
+      <Button fx:id="clusterBtn" layoutX="366.0" layoutY="227.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="99.0" text="Cluster Data" textFill="#22297c">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Button>
+      <Label layoutX="58.0" layoutY="72.0" prefHeight="26.0" prefWidth="181.0" text="Clustering Algorithm:" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font></Label>
+      <ComboBox fx:id="clusteringDropDown" layoutX="269.0" layoutY="72.0" prefHeight="27.0" prefWidth="283.0" promptText="Select Clustering Algorithm" style="-fx-font-family: &quot;Arial&quot;;" />
+      <ProgressIndicator fx:id="progressIndicator" layoutX="520.0" layoutY="270.0" prefHeight="53.0" prefWidth="74.0" style="-fx-accent: white;" visible="false" />
+      <Label layoutX="58.0" layoutY="173.0" prefHeight="24.0" prefWidth="99.0" text="File to use:" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="118.0" prefHeight="26.0" prefWidth="181.0" text="Visualisation Method:" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="visualisationDropDown" layoutX="269.0" layoutY="116.0" prefHeight="27.0" prefWidth="283.0" promptText="Select Visualisation Method" style="-fx-font-family: &quot;Arial&quot;;" />
+      <Button fx:id="visualisationBtn" layoutX="475.0" layoutY="227.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="99.0" text="Visualise File" textFill="#22297c">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

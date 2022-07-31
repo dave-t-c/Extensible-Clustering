@@ -1,0 +1,48 @@
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+*.iml
+.idea/
+out/*
+*.DS_Store
+
+# Location of output files
+Clustering\ Output/
+
+# Location of Resource Files
+Programs/Resources/*.txt
+!Programs/Resources/sources.txt
+
+
+
+# Project plan 
+Project\ Plan/*
+!Project\ Plan/ZFAC042-plan.tex
+
+
+# Report Files
+Reports/*/*
+!Reports/**/*.tex
+!Reports/**/*.bib
+!Reports/**/*.png
+!Reports/**/*.cls
+
+# BibTex Files should not be ignored
+!*.bib
+
+#Images for Figures in reports
+!*.png
+
+#Interim Report Logo
+!Reports/InterimReport/logo.pdf
+
+# Eclipse settings files
+.settings/

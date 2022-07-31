@@ -1,0 +1,3 @@
+https://ftp.ncbi.nlm.nih.gov/genbank/gbbct455.seq.gz
+https://ftp.ncbi.nlm.nih.gov/genbank/gbbct400.seq.gz
+https://ftp.ncbi.nlm.nih.gov/genbank/gbbct101.seq.gz
