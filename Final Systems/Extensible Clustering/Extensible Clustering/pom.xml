@@ -20,7 +20,6 @@
     <testfx.version>4.0.15-alpha</testfx.version>
     <monocle.version>jdk-11+26</monocle.version>
     <jacoco.skip>true</jacoco.skip>
-    <properties>
     <sonar.organization>dave-t-c</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
