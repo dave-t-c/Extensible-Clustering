@@ -51,8 +51,8 @@ Plugins: 98%
 If you find any issues or bugs, please create a new issue, and include the output from the terminal you ran the system in. 
 
 ## Downloads
-[Linux](https://github.com/RHUL-CS-Projects/IndividualProject_2020_David-Cook/releases/download/v1.0/ExtensibleClustering-1.0-LINUX.jar)
+[Linux](https://github.com/dave-t-c/Extensible-Clustering/releases/download/v1.0/ExtensibleClustering-1.0-Linux.jar)
 
-[macOS](https://github.com/RHUL-CS-Projects/IndividualProject_2020_David-Cook/releases/download/v1.0/ExtensibleClustering-1.0-MAC.jar)
+[macOS](https://github.com/dave-t-c/Extensible-Clustering/releases/download/v1.0/ExtensibleClustering-1.0-macOS.jar)
 
-[Windows](https://github.com/RHUL-CS-Projects/IndividualProject_2020_David-Cook/releases/download/v1.0/ExtensibleClustering-1.0-WIN.jar)
+[Windows](https://github.com/dave-t-c/Extensible-Clustering/releases/download/v1.0/ExtensibleClustering-1.0-Windows.jar)
