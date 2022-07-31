@@ -1,0 +1,22 @@
+name: Extensible Clustering - Code Coverage
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 11
+      uses: actions/setup-java@v1
+      with:
+        java-version: 11
+    - name: Check extensible clustering code coverage
+      run: cd Final\ Systems/Extensible\ Clustering/Extensible\ Clustering/ && mvn clean verify -Djacoco.skip=false
+
+
