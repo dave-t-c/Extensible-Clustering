@@ -35,4 +35,4 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: 
           cd Final\ Systems/Extensible\ Clustering/Extensible\ Clustering/ &&
-          mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=dave-t-c_Extensible-Clustering
+          mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=dave-t-c_Extensible-Clustering -Djacoco.skip=false
